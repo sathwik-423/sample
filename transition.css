@@ -1,0 +1,18 @@
+div {
+	width: 100px;
+	height: 100px;
+	margin: 100px auto;
+	background: red;
+	transition-property:all; 
+	transition-delay: 0.5s; /* without this also the transition will work */
+	transition-duration: 0.25s;
+/* transition: all 0.5s; gives the same result	*/
+}
+
+div:hover {
+	width: 250px;
+	height: 250px;
+	border-radius:50%;	
+	background-color: green;
+	transform:rotate(180deg);
+}
