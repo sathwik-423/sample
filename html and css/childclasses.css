@@ -1,0 +1,16 @@
+.container p:last-child {
+	color: red;
+}
+.container p:nth-child(2) {
+	color: green;
+}
+/*for even child*/
+/*.container p:nth-child(even) {
+    color: yellow;*/
+/*.container p:nth-child(2n) {
+    color: yellow;*/
+/*for odd child*/
+/*.container p:nth-child(odd) {
+    color: yellow;*/
+/*.container p:nth-child(2n+1) {
+    color: yellow;*/

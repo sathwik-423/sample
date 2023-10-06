@@ -1,0 +1,26 @@
+.box {
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	animation: 5s abc infinite;
+}
+
+@keyframes abc {
+	0%{
+		margin-left: 0px;
+		background-color: red;
+	}
+	25% {
+		margin-left: 500px;
+		background-color: blue;
+	}
+	50% {
+		margin-left: 1000px;
+		background-color: green;
+		transform: rotate3d(30, 60, 120, 360deg);
+	}
+	100% {
+		margin-left: 0px;
+		background-color: yellow;
+	}
+}
